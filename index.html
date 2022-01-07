@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip-Calculator</title>   
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+    
+
+</head>
+<body>
+    
+    <main>
+
+        <h1>Tip Calculator</h1>
+
+        <div>
+
+            <label for="bill_amount">Bill Amount  </label>
+            <input type="text" name="bill" id="bill_amount">
+            <br>
+
+            <label for="tip_perc">Tip Perc  </label>
+            <input type="text" name="bill" id="tip_perc">
+            <br>
+
+            <label for="tip_amount">Tip Amount  </label>
+            <input type="text" name="bill" id="tip_amount" disabled>
+            <br>
+
+            <label for="total_billed">Total Billed  </label>
+            <input type="text" name="bill" id="total_billed" disabled>
+            <br>
+
+            <!-- whenever we will click on calculate button  then it will call tipCalcy() function -->
+            <button onClick="tipCalcy()">Calculate</button>
+
+        </div>
+    </main>
+
+</body>
+</html>
